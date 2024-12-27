@@ -7,16 +7,16 @@ assignees: ''
 
 ---
 
-As a developer
+**As a** developer  
+**I need** to set up the development environment  
+**So that** I can start working on the accounts microservice  
 
-I need to set up the development environment
+### Details and Assumptions
+* Install necessary tools like IDE, package manager, etc.
+* Set up version control and branching strategy.
 
-So that I can begin implementing the customer accounts microservice
-
-Details and Assumptions
-Use the latest version of the required tools and frameworks.
-Follow the provided setup documentation.
-Acceptance Criteria
-Given access to project repositories
-When I clone and configure the environment
-Then I should be able to run the project locally
+### Acceptance Criteria     
+```gherkin
+Given a new repository
+When I follow the setup instructions
+Then I can successfully build and run the project locally
